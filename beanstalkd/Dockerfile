@@ -1,6 +1,5 @@
 FROM alpine:3
 LABEL maintainer="Konstantin Shavrukov <flyb1z0n@gmail.com>"
-LABEL version="1.0"
 LABEL description="docker image for beanstalkd (https://beanstalkd.github.io/)"
 
 ADD install.sh install.sh
